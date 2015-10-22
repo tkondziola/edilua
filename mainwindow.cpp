@@ -17,16 +17,16 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_action_New_triggered()
 {
-
+    qDebug() << "on_action_New_triggered";
 }
 
 void MainWindow::on_action_Save_triggered()
 {
-
+    qDebug() << "on_action_Save_triggered";
 }
 
 void MainWindow::on_action_Run_triggered()
 {
-
+    qDebug() << "on_action_Run_triggered";
 }
 
