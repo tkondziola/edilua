@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/edilua">
+        <file>resources/icons/application-import.png</file>
+        <file>resources/icons/application-document.png</file>
+        <file>resources/icons/logo.svg</file>
+        <file>resources/icons/application.png</file>
+        <file>resources/icons/application-cloud.png</file>
+        <file>resources/icons/application-export.png</file>
+        <file>resources/icons/application-list.png</file>
+        <file>resources/icons/application-terminal.png</file>
+        <file>resources/splashscreen/logo.svg</file>
+    </qresource>
+</RCC>
