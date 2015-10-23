@@ -28,7 +28,21 @@ void MainWindow::on_action_New_triggered()
                                                     tr("Lua files (*.lua)"));
     QFileInfo sourceFile(fileName);
     ui->tabWidget->setTabText(0, sourceFile.fileName());
-    ui->plainTextEdit->setPlainText("");
+
+    QFile srcFile(fileName);
+    if (!srcFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
+        return;
+    }
+
+    QByteArray content = srcFile.readAll();
+    if (!content.length()) {
+        qWarning() << "No such file or directory ...";
+        srcFile.close();
+        return;
+    }
+
+    ui->plainTextEdit->setPlainText(QString(content));
+    srcFile.close();
 }
 
 void MainWindow::on_action_Save_triggered()
