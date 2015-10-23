@@ -14,11 +14,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    luaengine.cpp
+    luaengine.cpp \
+    luasyntaxhighlighter.cpp
 
 HEADERS  += mainwindow.h \
-    luagrammar.h \
-    luaengine.h
+    luaengine.h \
+    luasyntaxhighlighter.h
 
 FORMS    += mainwindow.ui
 
