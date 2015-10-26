@@ -9,5 +9,12 @@
         <file>resources/icons/application-list.png</file>
         <file>resources/icons/application-terminal.png</file>
         <file>resources/splashscreen/logo.svg</file>
+        <file>resources/icons/application-search-result.png</file>
+        <file>resources/icons/application-run.png</file>
+        <file>resources/icons/application-monitor.png</file>
+        <file>resources/icons/application-sidebar.png</file>
+        <file>resources/icons/application-tree.png</file>
+        <file>resources/icons/application-split.png</file>
+        <file>resources/icons/application--plus.png</file>
     </qresource>
 </RCC>
