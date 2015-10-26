@@ -16,5 +16,6 @@
         <file>resources/icons/application-tree.png</file>
         <file>resources/icons/application-split.png</file>
         <file>resources/icons/application--plus.png</file>
+        <file>resources/icons/cross-small.png</file>
     </qresource>
 </RCC>
