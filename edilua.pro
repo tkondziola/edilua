@@ -15,13 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     luaengine.cpp \
-    luasyntaxhighlighter.cpp
+    luasyntaxhighlighter.cpp \
+    settingsdialog.cpp
 
 HEADERS  += mainwindow.h \
     luaengine.h \
-    luasyntaxhighlighter.h
+    luasyntaxhighlighter.h \
+    settingsdialog.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    settingsdialog.ui
 
 RESOURCES += \
     resources.qrc
