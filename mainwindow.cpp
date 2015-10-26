@@ -26,9 +26,6 @@ void MainWindow::on_action_New_triggered()
                                                     tr("Open file"),
                                                     QDir::currentPath(),
                                                     tr("Lua files (*.lua)"));
-    QFileInfo sourceFile(fileName);
-    ui->tabWidget->setTabText(0, sourceFile.fileName());
-
     QFile srcFile(fileName);
     if (!srcFile.open(QIODevice::ReadWrite | QIODevice::Text)) {
         return;
@@ -41,6 +38,8 @@ void MainWindow::on_action_New_triggered()
         return;
     }
 
+    QFileInfo sourceFile(fileName);
+    ui->tabWidget->setTabText(0, sourceFile.fileName());
     ui->plainTextEdit->setPlainText(QString(content));
     srcFile.close();
 }
