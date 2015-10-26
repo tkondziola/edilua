@@ -1,5 +1,7 @@
+#include <QtCore/QDebug>
+
+// Locale headers
 #include "luaengine.h"
-#include <QDebug>
 
 
 LuaEngine::LuaEngine(QObject *parent) : QObject(parent) {

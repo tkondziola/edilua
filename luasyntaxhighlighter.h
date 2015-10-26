@@ -1,7 +1,7 @@
-#ifndef LUAGRAMMAR_H
-#define LUAGRAMMAR_H
+#ifndef LUASYNTAXHIGHLIGHTER_H
+#define LUASYNTAXHIGHLIGHTER_H
 
-#include <QSyntaxHighlighter>
+#include <QtGui/QSyntaxHighlighter>
 
 class LuaSyntaxHighlighter : public QSyntaxHighlighter
 {
@@ -12,5 +12,5 @@ public:
     ~LuaSyntaxHighlighter();
 };
 
-#endif // LUAGRAMMAR_H
+#endif // LUASYNTAXHIGHLIGHTER_H
 
